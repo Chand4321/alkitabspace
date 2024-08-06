@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.sticky_header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    /* Stick to the top of the viewport */
+    z-index: 10;
+
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.headmenu {
+    /* margin-left: 20px; */
+    margin-left: 15px;
+}
+
+.headlogin {
+    /* margin-right: 20px;  */
+}
+
+.right-head-box {
+    margin-right: 10px;
+}
+
+.profile-icon,
+.search-icon {
+    padding: 5px;
+}
+
+.headlogo {
+    height: 80px;
+}
+
+.headbtn {
+    height: 40px;
+}
+
+/* ----------------navbar----------------- */
+
+.sidebar-toggle-close {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+}
+
+.home-nav {
+    display: none;
+    top: 0;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    /* display: none; */
+    height: 100vh;
+    width: 60vw;
+    z-index: 11;
+
+}
+
+.home-nav.active {
+    display: block;
+}
+
+.home-nav ul {
+    padding: 30px;
+}
+
+.home-nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+.home-nav ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+/* -----------Featured Post ---------- */
+
+.mainbox {}
+
+.featuredpost {
+    padding: 20px;
+}
+
+.fp-tag {
+    padding: 8px;
+    display: block;
+    background: black;
+    color: white;
+    width: max-content;
+}
+
+.fp-heading {
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+.fp-date {
+    margin: 20px;
+    font-style: italic;
+}
+
+.fp-summary {
+    margin: 10px;
+}
+
+.fp-author {
+    margin: 20px;
+}
+
+/* -------------home article --------------- */
+.home-article {
+    padding: 20px;
+}
+
+.ha-tag {
+    padding: 8px;
+    display: block;
+    background: black;
+    color: white;
+    width: max-content;
+}
+
+.ha-title {
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+.ha-date {
+    margin: 20px;
+    font-style: italic;
+}
+
+.ha-summary {
+    margin: 10px;
+}
+
+/* --------------home resource----------------- */
+
+.home-resource {
+    padding: 20px;
+}
+
+
+
+.hr-card {}
+
+.hr-tag {
+    padding: 8px;
+    display: block;
+    background: black;
+    color: white;
+    width: max-content;
+}
+
+.hr-title {
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+.hr-cat {
+    margin: 20px;
+    font-style: italic;
+}
+
+.hr-description {
+    margin: 10px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.616);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.f-icon {
+    height: 50px;
+    padding: 10px;
+}
+
+.f-navlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.f-navlist li {
+    list-style: none;
+    padding: 5px;
+}
+
+.f-navlist li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+
+footer span {
+    font-size: 0.8rem;
+    font-style: italic;
+}

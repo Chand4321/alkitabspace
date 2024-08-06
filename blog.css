@@ -1,0 +1,52 @@
+.searchbar-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px;
+}
+
+#search-btn {
+    background: #000;
+    border: none;
+    height: 35px;
+    padding: 5px;
+    border-end-end-radius: 15px;
+}
+
+#searchbar {
+    width: 250px;
+    height: 35px;
+    border: none;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1.1rem;
+
+    border-top-left-radius: 15px;
+
+}
+
+#searchbar:focus {
+    outline: none;
+}
+
+/* -------------------Blog card-------------------- */
+
+.g-blogcard {
+    /* width: 80vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.g-bc-img {
+    width: 30vw;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+}
+
+.g-bc-text {
+    width: 60vw;
+}
